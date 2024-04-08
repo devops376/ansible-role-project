@@ -1,0 +1,15 @@
+---
+packages:
+  - httpd
+  - php
+  - php-mysqlnd
+httpd_port: 80
+httpd_servername: "wordpress.dhjkprt.shop"
+httpd_docroot: "/var/www/html/default/"
+httpd_owner: "apache"
+httpd_group: "apache"
+mariadb_root_password: "root123"
+mariadb_extra_user: "user1"
+mariadb_extra_password: "pas1234"
+mariadb_extra_db: "class"
+wordpress_dwnld_url: "https://wordpress.org/wordpress-6.0.3.tar.gz"
